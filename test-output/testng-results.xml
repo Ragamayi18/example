@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[no of rows are::3  no of columns in row are::4]]>
+    </line>
+    <line>
+      <![CDATA[Emp creation Success]]>
+    </line>
+    <line>
+      <![CDATA[Emp creation Success]]>
+    </line>
+    <line>
+      <![CDATA[Emp creation Success]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62039" started-at="2020-01-31T03:20:48Z" finished-at="2020-01-31T03:21:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62039" started-at="2020-01-31T03:20:48Z" finished-at="2020-01-31T03:21:50Z">
+      <class name="DriverFactory.DataDrivenFrameWork">
+        <test-method status="PASS" signature="adminlogin()[pri:0, instance:DriverFactory.DataDrivenFrameWork@36b4cef0]" name="adminlogin" is-config="true" duration-ms="17514" started-at="2020-01-31T03:20:48Z" finished-at="2020-01-31T03:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method status="PASS" signature="addEmployee()[pri:0, instance:DriverFactory.DataDrivenFrameWork@36b4cef0]" name="addEmployee" duration-ms="42039" started-at="2020-01-31T03:21:05Z" finished-at="2020-01-31T03:21:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no of rows are::3  no of columns in row are::4]]>
+            </line>
+            <line>
+              <![CDATA[Emp creation Success]]>
+            </line>
+            <line>
+              <![CDATA[Emp creation Success]]>
+            </line>
+            <line>
+              <![CDATA[Emp creation Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.DataDrivenFrameWork@36b4cef0]" name="tearDown" is-config="true" duration-ms="2438" started-at="2020-01-31T03:21:47Z" finished-at="2020-01-31T03:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DriverFactory.DataDrivenFrameWork -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
