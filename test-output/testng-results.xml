@@ -1,49 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[no of rows are::3  no of columns in row are::4]]>
+      <![CDATA[Emp Creation Success]]>
     </line>
     <line>
-      <![CDATA[Emp creation Success]]>
-    </line>
-    <line>
-      <![CDATA[Emp creation Success]]>
-    </line>
-    <line>
-      <![CDATA[Emp creation Success]]>
+      <![CDATA[User Creation is Fail]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62039" started-at="2020-01-31T03:20:48Z" finished-at="2020-01-31T03:21:50Z">
+  <suite name="Default suite" duration-ms="93749" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:56:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62039" started-at="2020-01-31T03:20:48Z" finished-at="2020-01-31T03:21:50Z">
-      <class name="DriverFactory.DataDrivenFrameWork">
-        <test-method status="PASS" signature="adminlogin()[pri:0, instance:DriverFactory.DataDrivenFrameWork@36b4cef0]" name="adminlogin" is-config="true" duration-ms="17514" started-at="2020-01-31T03:20:48Z" finished-at="2020-01-31T03:21:05Z">
+    <test name="Default test" duration-ms="93749" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:56:08Z">
+      <class name="DriverFactory.TestScript">
+        <test-method status="PASS" signature="generatereport()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="generatereport" is-config="true" duration-ms="324" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:54:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- adminlogin -->
-        <test-method status="PASS" signature="addEmployee()[pri:0, instance:DriverFactory.DataDrivenFrameWork@36b4cef0]" name="addEmployee" duration-ms="42039" started-at="2020-01-31T03:21:05Z" finished-at="2020-01-31T03:21:47Z">
+        </test-method> <!-- generatereport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="setUp" is-config="true" duration-ms="13166" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="empCreation()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="empCreation" duration-ms="19089" started-at="2020-02-04T03:54:48Z" finished-at="2020-02-04T03:55:07Z">
           <reporter-output>
             <line>
-              <![CDATA[no of rows are::3  no of columns in row are::4]]>
-            </line>
-            <line>
-              <![CDATA[Emp creation Success]]>
-            </line>
-            <line>
-              <![CDATA[Emp creation Success]]>
-            </line>
-            <line>
-              <![CDATA[Emp creation Success]]>
+              <![CDATA[Emp Creation Success]]>
             </line>
           </reporter-output>
-        </test-method> <!-- addEmployee -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.DataDrivenFrameWork@36b4cef0]" name="tearDown" is-config="true" duration-ms="2438" started-at="2020-01-31T03:21:47Z" finished-at="2020-01-31T03:21:50Z">
+        </test-method> <!-- empCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="tearDown" is-config="true" duration-ms="11916" started-at="2020-02-04T03:55:07Z" finished-at="2020-02-04T03:55:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- DriverFactory.DataDrivenFrameWork -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="setUp" is-config="true" duration-ms="10386" started-at="2020-02-04T03:55:19Z" finished-at="2020-02-04T03:55:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="usercreation()[pri:1, instance:DriverFactory.TestScript@fad74ee]" name="usercreation" duration-ms="27164" started-at="2020-02-04T03:55:29Z" finished-at="2020-02-04T03:55:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User Creation is Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- usercreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="tearDown" is-config="true" duration-ms="11672" started-at="2020-02-04T03:55:57Z" finished-at="2020-02-04T03:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DriverFactory.TestScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
