@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DriverFactory.TestScript">
+      <class name="feb6.Using_Grid">
         <methods>
           <include name="setUp"/>
+          <include name="login"/>
           <include name="tearDown"/>
-          <include name="usercreation"/>
         </methods>
-      </class> <!-- DriverFactory.TestScript -->
+      </class> <!-- feb6.Using_Grid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

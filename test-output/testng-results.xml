@@ -1,53 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[Emp Creation Success]]>
+      <![CDATA[No.of rows are=7]]>
     </line>
     <line>
-      <![CDATA[User Creation is Fail]]>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="93749" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:56:08Z">
+  <suite name="Default suite" duration-ms="46802" started-at="2020-02-06T03:49:36Z" finished-at="2020-02-06T03:50:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="93749" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:56:08Z">
-      <class name="DriverFactory.TestScript">
-        <test-method status="PASS" signature="generatereport()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="generatereport" is-config="true" duration-ms="324" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:54:35Z">
+    <test name="Default test" duration-ms="46802" started-at="2020-02-06T03:49:36Z" finished-at="2020-02-06T03:50:23Z">
+      <class name="feb6.DataProvider_readwrite">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="SetUp" is-config="true" duration-ms="3826" started-at="2020-02-06T03:49:36Z" finished-at="2020-02-06T03:49:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generatereport -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="setUp" is-config="true" duration-ms="13166" started-at="2020-02-04T03:54:35Z" finished-at="2020-02-04T03:54:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="empCreation()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="empCreation" duration-ms="19089" started-at="2020-02-04T03:54:48Z" finished-at="2020-02-04T03:55:07Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Emp Creation Success]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- empCreation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="tearDown" is-config="true" duration-ms="11916" started-at="2020-02-04T03:55:07Z" finished-at="2020-02-04T03:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="setUp" is-config="true" duration-ms="10386" started-at="2020-02-04T03:55:19Z" finished-at="2020-02-04T03:55:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="usercreation()[pri:1, instance:DriverFactory.TestScript@fad74ee]" name="usercreation" duration-ms="27164" started-at="2020-02-04T03:55:29Z" finished-at="2020-02-04T03:55:57Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="VerifyLogin" duration-ms="11283" started-at="2020-02-06T03:49:42Z" data-provider="supplydata" finished-at="2020-02-06T03:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[User Creation is Fail]]>
+              <![CDATA[Login Success]]>
             </line>
           </reporter-output>
-        </test-method> <!-- usercreation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DriverFactory.TestScript@fad74ee]" name="tearDown" is-config="true" duration-ms="11672" started-at="2020-02-04T03:55:57Z" finished-at="2020-02-04T03:56:08Z">
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="VerifyLogin" duration-ms="4414" started-at="2020-02-06T03:49:53Z" data-provider="supplydata" finished-at="2020-02-06T03:49:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="VerifyLogin" duration-ms="4855" started-at="2020-02-06T03:49:58Z" data-provider="supplydata" finished-at="2020-02-06T03:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="VerifyLogin" duration-ms="4156" started-at="2020-02-06T03:50:02Z" data-provider="supplydata" finished-at="2020-02-06T03:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="VerifyLogin" duration-ms="4977" started-at="2020-02-06T03:50:07Z" data-provider="supplydata" finished-at="2020-02-06T03:50:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="VerifyLogin" duration-ms="4087" started-at="2020-02-06T03:50:12Z" data-provider="supplydata" finished-at="2020-02-06T03:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="VerifyLogin" duration-ms="4963" started-at="2020-02-06T03:50:16Z" data-provider="supplydata" finished-at="2020-02-06T03:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:feb6.DataProvider_readwrite@1a1d6a08]" name="afterTest" is-config="true" duration-ms="2102" started-at="2020-02-06T03:50:21Z" finished-at="2020-02-06T03:50:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- DriverFactory.TestScript -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- feb6.DataProvider_readwrite -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
